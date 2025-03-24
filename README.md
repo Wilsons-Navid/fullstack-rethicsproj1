@@ -220,48 +220,7 @@ fullstack-rethicsproj1/
 
 ## Contact
 
-For questions or feedback, contact [Your Name](mailto:your-email@example.com).
+For questions or feedback, contact [Wilsons Navid](rethicssec@gmail.com).
 ```
 
 ---
-
-### **Key Changes**
-1. **Combined Repository**: Frontend and backend are now in a single folder (`rethics-app`).
-2. **Updated README**: Reflects the new folder structure and provides clear instructions for setup, running, and deployment.
-3. **Simplified Workflow**: Easier to manage and deploy as a single project.
-
----
-
-### **How to Use**
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/rethics-app.git
-   cd rethics-app
-   ```
-
-2. **Install Dependencies**:
-   - Frontend:
-     ```bash
-     cd frontend
-     npm install
-     ```
-   - Backend:
-     ```bash
-     cd ../backend
-     npm install
-     ```
-
-3. **Run the Application**:
-   - Backend:
-     ```bash
-     cd backend
-     npm start
-     ```
-   - Frontend:
-     ```bash
-     cd ../frontend
-     npm start
-     ```
-
-4. **Access the App**:
-   Open your browser and navigate to `http://localhost:3000`.
