@@ -1,0 +1,120 @@
+/* VulnerabilityScanner.css */
+.scanner-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .scanner-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: #191919;
+  }
+  
+  .scanner-input:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+    color: #e8f5e9;
+  }
+  
+  .scanner-button {
+    background:#00ffcc;
+    color: black;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+  
+  .scanner-button:hover {
+    /* background: #1976d2; */
+    background-color:  #ff00ff;
+  }
+  
+  .scanner-button:disabled {
+    background: #90caf9;
+    cursor: not-allowed;
+  }
+  
+  .alert {
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  
+  .alert-error {
+    background: #ffebee;
+    color: #b71c1c;
+    border: 1px solid #ffcdd2;
+  }
+  
+  .alert-success {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+  }
+  
+  .vulnerability-list {
+    margin: 1rem 0;
+  }
+  
+  .vulnerability-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background: white;
+  }
+  
+  .severity-badge {
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .severity-critical {
+    background: #d32f2f;
+    color: white;
+  }
+  
+  .severity-high {
+    background: #f57c00;
+    color: white;
+  }
+  
+  .severity-medium {
+    background: #0288d1;
+    color: white;
+  }
+  
+  .severity-low {
+    background: #689f38;
+    color: white;
+  }
+  
+  .status-heading {
+    margin: 1.5rem 0 0.5rem;
+    color: #333;
+  }
+  
+  .loading-dots::after {
+    content: '.';
+    animation: dots 1.5s infinite;
+  }
+  
+  @keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60% { content: '...'; }
+    80%, 100% { content: ''; }
+  }
