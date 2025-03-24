@@ -43,7 +43,7 @@ Rethics is a **full-stack application** designed to empower individuals, organiz
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Wilsons-Navid/fullstack-rethicsproj1.git
-   cd rethics-app
+   cd fullstack-rethicsproj1
 
 2. **Install Frontend Dependencies**:
    ```bash
@@ -54,7 +54,7 @@ Rethics is a **full-stack application** designed to empower individuals, organiz
 3. **Install Backend Dependencies**:
    ```bash
    cd ../rethicsproj1-backend
-   pip install node
+   npm install node
    ```
 
 4. **Set Up Environment Variables**:
