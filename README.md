@@ -5,7 +5,7 @@
 
 # Rethics App
 
-Rethics is a **full-stack application** designed to empower individuals, organizations, and communities with tools and resources to combat cybercrime and promote cybersecurity awareness. The app includes features like **incident reporting**, **cyber mentorship**, **vulnerability scanning**, and **community campaigns**.
+Rethics is a **full-stack application** designed to provide individuals, organizations, and communities with tools, knowlegde, and resources to combat cybercrime and promote cybersecurity awareness. The app includes features like **incident reporting**, **cyber mentorship**, **vulnerability scanning**, and **community campaigns**.
 
 ---
 
