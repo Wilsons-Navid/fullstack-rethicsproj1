@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import axios from "axios";
+const AUTH_BASE_URL = `${process.env.REACT_APP_API_BASE_URL}/api/incidents`;
 
-const AUTH_BASE_URL = "http://localhost:5000/api/incidents";
 
 const IncidentReport = () => {
   const [formData, setFormData] = useState({

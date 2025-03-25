@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import PhishingEducation from './Phishing';
+// import PhishingEducation from './Phishing';
 
 const UserEducation = () => {
   const tutorials = [
